@@ -47,7 +47,7 @@ namespace MewtocolNet.UnderlyingRegisters {
 
         private uint pollIteration = 0;
 
-        internal MemoryAreaManager(MewtocolInterface mewIf, int wrSize = 512, int dtSize = 32_765) {
+        internal MemoryAreaManager(MewtocolInterface mewIf, int wrSize = 2049, int dtSize = 999425) {
 
             mewInterface = mewIf;
             Setup(wrSize, dtSize);
